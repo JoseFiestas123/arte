@@ -1,0 +1,367 @@
+*{
+	padding:0;
+	margin: 0;
+		
+}
+
+/*HEADER*/
+
+/*Aqui es todo donde dice jose fiestas*/
+.cabecera{
+	width: 100%;
+	height: 4.8em;
+	background: #101010;
+	text-align: center;
+	border-bottom: 0.5px solid #585858;
+
+}
+
+.cabecera h2{
+	font-family: 'Poppins', sans-serif;
+	color: #7fd5ff;
+	font-size: 30px;
+	display: inline-block;
+	margin-top: 0.5em;
+	
+}
+
+.cabecera h2 span{
+	font-family: 'Poppins', sans-serif;
+	color:#fff;
+	font-size: 30px;
+}
+
+/*aqui esta todo el menu */
+
+.menu{
+	width: 100%;
+	height: 3em;
+	background:#101010;
+	text-align: center;
+	padding-top: 1em;
+	border-bottom: 0.5px solid #585858;
+
+}
+.menu a {
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	font-size: 17px;
+	padding: 10px;
+}
+
+
+
+#home{
+	margin-right: 5px;
+}
+
+/*Aqui comenzamos los efectos HOVER*/
+.inicio:hover{
+	width: 30px;
+	transition: 0.1s;
+	background: #585858;
+	border-bottom: 7px solid #fff;
+}
+
+.comu:hover{
+	color: #000;
+	width: 30px;
+	transition: 0.1s;
+	background: #F5FD4A ;
+	border-bottom: 7px solid #fff;
+}
+
+.mate:hover{
+	color: #fff;
+	width: 30px;
+	transition: 0.1s;
+	background: #ff2b2b;
+	border-bottom: 7px solid #fff;
+
+}
+
+.css:hover{
+	color: #fff;
+	width: 30px;
+	transition: 0.1s;
+	background: #FE6D29;
+	border-bottom: 7px solid #fff;
+
+}
+
+.cta:hover{
+	color: #fff;
+	width: 30px;
+	transition: 0.1s;
+	background: #26f3c918;
+	border-bottom: 7px solid #fff;
+
+}
+
+.arte:hover{
+	color: #fff;
+	width: 30px;
+	transition: 0.1s;
+	background:#731EF6;
+	border-bottom: 7px solid #fff;
+
+}
+
+.reli:hover{
+	color: #fff;
+	width: 30px;
+	transition: 0.1s;
+	background:#9262DE;
+	border-bottom: 7px solid #fff;
+
+}
+
+.ingles:hover{
+	color: #000;
+	width: 30px;
+	transition: 0.1s;
+	background:#88F741;
+	border-bottom: 7px solid #fff;
+
+}
+
+.social:hover{
+	color: #fff;
+	width: 30px;
+	transition: 0.1s;
+	background:#3264FF;
+	border-bottom: 7px solid #fff;
+
+}
+
+.tuto:hover{
+	color: #000;
+	width: 30px;
+	transition: 0.1s;
+	background:#fff;
+	border-bottom: 7px solid #000;
+
+}
+/*tiutlo principal*/
+
+.titulo{
+	text-align: center;
+	
+
+	
+}
+
+.titulo h2{
+	font-family: 'Lobster', cursive;
+	font-size: 120px;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+.principal{
+	background:radial-gradient(circle, rgba(69,0,156,1) 0%, rgba(146,37,251,1) 0%, rgba(79,19,171,1) 64%);
+	transition: 10000s;
+}
+
+/*Pruebas title*/
+.josepruebas{
+	margin-top: 2em;
+	margin-left: 12.5em;
+	width: 60em;
+	height: 58em;
+	background: #FFFFFF;
+	background-attachment: fixed;
+	box-shadow: 2px 2px 12px 8px #585858;
+	margin-bottom: 4em;
+
+}
+
+.josepruebas h2{
+	font-family: 'Fredoka One', cursive;
+	text-align: center;
+	color: #1a1b1e;
+	font-size: 35px;
+	padding-top: 30px;
+}
+
+
+/*semana 20*/
+
+.sema20{
+	width: 25em;
+	height: 15em;
+	background:#E5E5E5;
+	margin-left: 2.5em;
+	margin-top: 2em;
+	position: absolute;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 2px 2px 12px 8px #585858;
+}
+
+.sema20 h3{
+	font-family: 'Fredoka One', cursive;
+	font-size: 30px;
+	padding-top: 1em;
+	color: #322F2F;
+
+}
+
+.sema20  p{
+	font-family: 'Lato', sans-serif;
+    width: 18em;
+    padding-left: 3em;
+    padding-top: 1em;
+    font-size: 17px;
+}
+
+.sema20 p span{
+	color:#5B15DF;
+}
+
+/*semana 21*/
+
+.sema21{
+	width: 25em;
+	height: 15em;
+	background: #E5E5E5;
+	margin-top: 2em;
+	margin-right: 2.5em;
+	float: right;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 2px 2px 12px 8px #585858;
+}
+
+.sema21 h3{
+	font-family: 'Fredoka One', cursive;
+	font-size: 30px;
+	padding-top: 1em;
+	color: #322F2F;
+
+}
+
+.sema21  p{
+	font-family: 'Lato', sans-serif;
+    width: 18em;
+    padding-left: 3em;
+    padding-top: 2em;
+    font-size: 17px;
+}
+
+.sema21 p span{
+	color:#5B15DF;
+}
+
+/*Galeria 1*/
+
+.galeria1 img{
+	width: 300px;
+	margin-top: 20em;
+	margin-left: 6em;
+	position: absolute;
+	box-shadow: 2px 2px 18px 5px #5B15DF;
+}
+
+
+#dos{
+	margin-top: 33em;
+}
+
+#tres{
+	margin-top: 50em;
+}
+
+/*hover*/
+
+.galeria1 img:hover{
+	border-radius: 30px;
+	cursor: pointer;
+	width: 350px;
+	margin-left: 2em;
+	transition: 0.8s;
+}
+
+/*Galeria 2*/
+
+.galeria2 {
+	float: right;
+	margin-top: 3em;
+	margin-left: 35em;
+	margin-right: 1em;
+}
+
+.galeria2 img{
+	width: 300px;
+	box-shadow: 2px 2px 12px 5px #5B15DF;
+}
+
+.galeria2 img:hover{
+	border-radius: 30px;
+	cursor: pointer;
+	width: 350px;
+	margin-left: 2em;
+	transition: 0.8s;
+}
+
+
+#dos2{
+	margin-top: 2em;
+}
+
+#tres3{
+	margin-top: 2.5em;
+}
+
+/*footer*/
+
+footer{
+	width: 100%;
+	height: 8em;
+	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(29,29,28,1) 36%, rgba(0,0,0,1) 54%);
+}
+
+.comuchau h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	color: #fff;
+	text-align: center;
+	margin-top: 1em;
+
+}
+
+
+/*Redes Sociales*/
+
+.redes{
+	margin-left: 34.5em;
+	padding-top: 1.5em;
+}
+
+i{
+	padding-left: 25px;
+}
+
+#youtube{
+	color: #fff;
+	font-size: 40px;
+}
+
+#facebook{
+	color: #fff;
+	font-size: 40px;
+}
+
+#twitter{
+	color: #fff;
+	font-size: 40px;
+}
+
+/*Hover redes Sociales*/
+
+i:hover{
+	color:  rgb(63,94,251);
+	transition: 0.5s;
+}
